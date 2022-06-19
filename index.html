@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Linking css externally -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Cdn for fontawesome icons -->
     <script src="https://kit.fontawesome.com/26d4a64054.js"></script>
     <title>Learning Site</title>
   </head>
   <body>
+    <!-- Topbar starts here -->
     <section id="topbar">
       <div class="topbar-content">
+        <!-- This anchor will open mail client when clicked at the text -->
         <a href="mailto:test@mail.com"> mail@test.com </a>
       </div>
       <div class="topbar-social">
@@ -23,7 +27,8 @@
       </div>
     </section>
 
-    
+    <!-- Topbar ends here -->
+
     <!-- <div class="header">
       <div id="nav-bar">
         <div class="logo">
@@ -62,8 +67,10 @@
       </div>
     </div> -->
 
+    <!-- Header starts here -->
+
     <div id="header">
-      <div  id="nav-bar">
+      <div id="nav-bar">
         <div class="logo">
           <a href="#">
             <img src="img/logo.png" alt="logo" width="80" height="80" />
@@ -89,17 +96,54 @@
           </ul>
         </div>
       </div>
-      <img id="header-img" src="img/header-img.png" >
+      <img id="header-img" src="img/header-img.png" />
       <div class="header-content">
         <h1>Get Cashback up to 50%</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Quisquam, quidem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          quidem.
         </p>
         <button>Order now</button>
       </div>
       <div class="header-overlay"></div>
     </div>
-  
+
+    <!-- Header ends here -->
+
+    <section id="chef">
+      <div class="chef-content">
+        <h1>Our Chef</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          quidem.
+        </p>
+
+        <!-- Employee cards section starts here -->
+
+        <div class="employee-cards">
+          <!-- Single card starts here -->
+          <div class="employee-card">
+            <img class="employee-img" src="img/men1.png" alt="" />
+            <h4 class="employee-name">Aiden Hunter</h4>
+            <h6 class="employee-position">Founder</h6>
+          </div>
+          <!-- Single card ends here -->
+          <!-- Single card starts here -->
+          <div class="employee-card">
+            <img class="employee-img" src="img/lady1.png" alt="" />
+            <h4 class="employee-name">Aiden Hunter</h4>
+            <h6 class="employee-position">Founder</h6>
+          </div>
+          <!-- Single card end here -->
+          <!-- Single card starts here -->
+          <div class="employee-card">
+            <img class="employee-img" src="img/lady2.png" alt="" />
+            <h4 class="employee-name">Aiden Hunter</h4>
+            <h6 class="employee-position">Founder</h6>
+          </div>
+        </div>
+        <!-- Employee cards section ends here -->
+      </div>
+    </section>
   </body>
 </html>
