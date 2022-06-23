@@ -88,6 +88,7 @@ body{
   #header
   {
     position: relative;
+    height: 500px;
   }
 
   #nav-bar
@@ -145,6 +146,12 @@ body{
     top:0
   }
 
+  #chef
+  {
+    background-color: #f6eedf;
+    position: relative;
+  }
+
   .chef-content h1, .chef-content p
   {
     color: rgb(212, 61, 61);
@@ -157,12 +164,16 @@ body{
     font-weight: bold;
     font-family: sans-serif;
     margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 50px;
   }
 
   .employee-cards
   {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
+    padding-bottom: 100px;
   }
 
   .employee-card
@@ -190,4 +201,5 @@ body{
     margin-top: 5px;
 
   }
+
 
