@@ -124,7 +124,7 @@ body{
     font-weight: bold;
   }
 
-  .header-content button
+  .header-content button, #featured-section button
   {
     background-color: rgb(212, 61, 61);
     color: white;
@@ -203,3 +203,60 @@ body{
   }
 
 
+
+  #featured-section
+  {
+    width: 100%;
+    background-color: rgb(212, 61, 61);
+    padding: 75px 0;
+  }
+
+
+  .featured-section-left
+  {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+  }
+
+  .featured-section-left img
+  {
+    border-radius: 200px;
+    margin-right: 125px;
+    object-fit: cover;
+  }
+
+  .featured-section-right
+  {
+    width: 50%;
+    float: right;
+  }
+
+
+  .feature-section-content
+  {
+    color: white;
+    width: 80%;
+  }
+
+  .feature-section-content h4
+  {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+
+  .feature-section-content p
+  {
+    font-size: 20px;
+
+  }
+
+
+  .feature-section-content button
+  {
+    background-color: white!important;
+    color: rgb(212, 61, 61)!important;
+    padding: 15px 50px!important;
+    margin-top: 50px;
+  }
