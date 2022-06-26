@@ -85,7 +85,7 @@ body{
   } */
 
 
-  #header
+  #header, #review-section
   {
     position: relative;
     height: 500px;
@@ -100,7 +100,7 @@ body{
     z-index: 99;
   }
 
-  #header-img
+  #header-img, #review-bg-img
   {
     width: 100%;
     height: 500px;
@@ -146,19 +146,19 @@ body{
     top:0
   }
 
-  #chef
+  #chef, #package-section
   {
     background-color: #f6eedf;
     position: relative;
   }
 
-  .chef-content h1, .chef-content p
+  .chef-content h1, .chef-content p, .package-section-content h1
   {
     color: rgb(212, 61, 61);
     text-align: center;
   }
 
-  .chef-content h1
+  .chef-content h1, .package-section-content h1
   {
     font-size: 45px;
     font-weight: bold;
@@ -168,7 +168,7 @@ body{
     padding-top: 50px;
   }
 
-  .employee-cards
+  .employee-cards, .package-section-cards
   {
     display: flex;
     justify-content: space-evenly;
@@ -176,7 +176,7 @@ body{
     padding-bottom: 100px;
   }
 
-  .employee-card
+  .employee-card, .package-card
   {
     text-align: center;
     color: rgb(212, 61, 61);
@@ -188,7 +188,7 @@ body{
     border-radius: 75px;
   }
 
-  .employee-card .employee-name
+  .employee-card .employee-name, .package-card .package-title
   {
     font-size: 30px;
     margin-bottom: 0;
@@ -204,11 +204,12 @@ body{
 
 
 
-  #featured-section
+  #featured-section, #stat-section
   {
     width: 100%;
     background-color: rgb(212, 61, 61);
     padding: 75px 0;
+    color: white;
   }
 
 
@@ -219,7 +220,7 @@ body{
     text-align: right;
   }
 
-  .featured-section-left img
+  .featured-section-left img, .big-burger-section-left img
   {
     border-radius: 200px;
     margin-right: 125px;
@@ -233,20 +234,20 @@ body{
   }
 
 
-  .feature-section-content
+  .feature-section-content, .big-burger-section-content
   {
     color: white;
     width: 80%;
   }
 
-  .feature-section-content h4
+  .feature-section-content h4, .big-burger-section-content h4
   {
     font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 10px;
   }
 
-  .feature-section-content p
+  .feature-section-content p, .big-burger-section-content p
   {
     font-size: 20px;
 
@@ -257,6 +258,228 @@ body{
   {
     background-color: white!important;
     color: rgb(212, 61, 61)!important;
-    padding: 15px 50px!important;
+    padding: 10px 50px!important;
     margin-top: 50px;
   }
+
+
+  /* Big burger section starts here */
+
+  #big-burger-section
+  {
+    width: 100%;
+    background-color: #f6eedf;
+    position: relative;
+    padding: 125px 0;
+  }
+
+  .big-burger-section-left
+  {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+  }
+
+  .big-burger-section-content
+  {
+    margin-left: 150px;
+    color: rgb(212, 61, 61)!important;
+  }
+
+  .big-burger-section-right
+  {
+    width: 50%;
+    float: left;
+  }
+
+  .big-burger-section-content button, .package-card button
+  {
+    color: white!important;
+    background-color: rgb(212, 61, 61)!important;
+    padding: 10px 50px!important;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+  }
+
+
+  /* Big burger section ends here */
+
+
+  /* Stat section starts here */
+
+  .stat-section-content
+  {
+    text-align: center;
+  }
+
+  .stat-section-content h1, .stat-section-content p
+  {
+    text-align: center;
+  }
+
+  .stat-section-content h1
+  {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+
+  .circular-divs
+  {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+
+  .circular-div
+  {
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 125px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circular-div .heading
+  {
+    font-size: 75px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .circular-div .subheading
+  {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+
+  /* Stat section ends here */
+
+  /* Popular package section starts here */
+
+  .package-card
+  {
+    width: 350px;
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 10px;
+    z-index: 99;
+    padding: 20px 0;
+  }
+
+  .package-card .package-title
+  {
+    margin-bottom: 20px;
+  }
+
+  .package-card .package-price
+  {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+  /* Popular package section ends here */
+
+  /* Review section starts header */
+
+  #review-section
+  {
+    height: 500px;
+    background-image: url('../img/2882811.png');
+    /* background-size: cover; */
+    background-position: bottom;
+    position: relative;
+  }
+
+  .review-content
+  {
+    color: white;
+    text-align: center;
+    z-index: 99;
+  }
+
+  .review-overlay
+  {
+    /* width: 100%; */
+    height: 500px;
+    background-color: rgba(212, 61, 61, 0.5);
+    position: absolute;
+    top:0
+  }
+
+
+
+  #review-bg-img {
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+}
+
+  .review-content
+  {
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    /* right: 50%; */
+    color: white;
+    width: 500px;
+    z-index: 99;
+
+  }
+
+  .review-content .review-body
+  {
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+
+  .review-content .reviewer
+  {
+    font-size: 40px;
+  }
+
+
+  .review-overlay
+  {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(212, 61, 61, 0.6);
+    position: absolute;
+    top:0
+  }
+
+    /* Review section ends header */
+
+    /* Newsletter section starts here */
+    #newsletter-section
+    {
+      height: 500px;
+      background-color: #f6eedf;
+      color: rgb(212, 61, 61);
+      position: relative;
+      text-align: -webkit-center;
+    }
+
+    .newsletter-section-content
+    {
+      padding-top: 100px;
+      width: 500px;
+    }
+
+    .newsletter-section-content h1
+    {
+      font-size: 50px;
+    }
+
+    /* Newsletter section ends here */
