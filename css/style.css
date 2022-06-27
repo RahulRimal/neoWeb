@@ -474,12 +474,121 @@ body{
     .newsletter-section-content
     {
       padding-top: 100px;
-      width: 500px;
+      width: 550px;
     }
 
     .newsletter-section-content h1
     {
       font-size: 50px;
     }
+
+    .newsletter-form
+    {
+      display: flex;
+      justify-content: center;
+    }
+
+    .newsletter-form input
+    {
+      width: 75%;
+      border: none;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      height: 40px;
+      padding: 0 25px;
+    }
+
+    .newsletter-form button
+    {
+      width: 25%;
+      border: none;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      height: 40px;
+      background-color: rgb(212, 61, 61);
+      color: white;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+
+    .footer-top
+    {
+      background-color: #201918;
+      color: white;
+      /* height: 500px; */
+      width: 100%;
+      display: flex;
+      padding: 100px 0;
+    }
+
+    .widget
+    {
+      width: 25%;
+      margin: 0 50px;
+    }
+
+    .widget ul
+    {
+      list-style: none;
+      padding: 0;
+    }
+    .widget li
+    {
+      line-height: 25px;
+      font-weight: bold;
+    }
+
+    .widget title
+    {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+
+    .widget-icons
+    {
+      display: flex;
+      justify-content: start;
+      margin-top: 10px;
+    }
+
+    .widget-icons a
+    {
+      text-decoration: none;
+    }
+
+    .widget-icons i
+    {
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      color: #201918;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+    }
+
+
+
+
+    .footer-bottom
+    {
+      text-align: center;
+      background-color: rgb(212, 61, 61);
+      color: white;
+      font-size: 20px;
+      font-weight: 900;
+      height: 30px;
+      line-height: 30px;
+    }
+
+    .footer-bottom p
+    {
+      margin: 0;
+    }
+
+
 
     /* Newsletter section ends here */
