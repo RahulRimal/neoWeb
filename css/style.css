@@ -231,6 +231,52 @@ body {
   margin-top: 5px;
 }
 
+@media only screen and (max-width: 768px){
+
+  .bg-icon
+  {
+    width: 55px!important;
+  }
+
+  .employee-cards
+  {
+    flex-direction: column;
+  }
+  
+  .section-background-icons > img:nth-child(1)
+  {
+    top: 5px!important;
+    right: 20px!important;
+  }
+
+  .section-background-icons > img:nth-child(2)
+  {
+    left: 10%!important;
+  }
+
+  .section-background-icons > img:nth-child(4)
+  {
+    top: 18%!important;
+    left: 25px !important;
+  }
+
+  .section-background-icons > img:nth-child(5)
+  {
+    top: 45% !important;
+    right: 25px !important;
+  }
+
+  .section-background-icons > img:nth-child(6)
+  {
+    bottom: 22% !important;
+    right: 5% !important;
+  }
+
+}
+
+
+
+
 #featured-section,
 #stat-section {
   width: 100%;
@@ -280,6 +326,42 @@ body {
   color: rgb(212, 61, 61) !important;
   padding: 10px 50px !important;
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  #featured-section
+  {
+    height: 400px;
+    position: relative;
+  }
+
+  .featured-section-left img
+  {
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 75px!important;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+  }
+
+  .feature-section-content h4
+  {
+    font-size: 25px;
+  }
+
+  .feature-section-content p
+  {
+    font-size: 18px;
+  }
+
+  .feature-section-content button
+  {
+    padding: 5px 15px !important;
+    margin-top: 0;
+  }
 }
 
 /* Big burger section starts here */
