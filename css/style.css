@@ -400,6 +400,64 @@ body {
   border-radius: 15px;
 }
 
+
+@media only screen and (max-width: 768px) {
+
+
+  #big-burger-section
+  {
+    height: 400px;
+    position: relative;
+  }
+
+  .big-burger-section-left
+  {
+    /* width: 150px!important; */
+    /* height: 150px!important; */
+    /* border-radius: 75px!important; */
+    position: absolute;
+    top: 290px;
+    left: 10px;
+    text-align: center;
+  }
+
+  .big-burger-section-left img
+  {
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 75px!important;
+    /* position: absolute; */
+    /* top: 290px; */
+    /* left: 10px; */
+  }
+  
+
+  .big-burger-section-right
+  {
+    padding: 0 30px;
+  }
+
+  .big-burger-section-content h4
+  {
+    font-size: 25px;
+  }
+
+  .big-burger-section-content p
+  {
+    font-size: 18px;
+  }
+
+  .big-burger-section-content button
+  {
+    padding: 5px 15px !important;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
 /* Big burger section ends here */
 
 /* Stat section starts here */
@@ -452,6 +510,28 @@ body {
   text-transform: uppercase;
 }
 
+
+@media only screen and (max-width: 768px) {
+
+  .circular-divs
+  {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .circular-div
+  {
+    margin: 15px 0;
+  }
+
+  .stat-section-content p
+  {
+    font-size: 20px;
+  }
+
+}
+
 /* Stat section ends here */
 
 /* Popular package section starts here */
@@ -474,6 +554,23 @@ body {
   margin-top: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+  .package-section-cards
+  {
+    flex-wrap: wrap;
+  }
+
+  .package-card
+  {
+    margin: 10px 20px;
+  }
+
+  .package-price
+  {
+    margin-bottom: 10px;
+  }
+}
+
 /* Popular package section ends here */
 
 /* Review section starts header */
@@ -481,7 +578,7 @@ body {
 #review-section {
   height: 500px;
   background-image: url("../img/2882811.png");
-  /* background-size: cover; */
+  background-size: cover;
   background-position: bottom;
   position: relative;
 }
@@ -533,6 +630,16 @@ body {
   top: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .review-content
+  {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+}
+
 /* Review section ends header */
 
 /* Newsletter section starts here */
@@ -577,6 +684,20 @@ body {
   color: white;
   font-size: 15px;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .newsletter-section-content
+  {
+    width: 100%;
+  }
+
+  #newsletter-section form
+  {
+    width: 90%;
+  }
+
 }
 
 .footer-top {
@@ -641,6 +762,24 @@ body {
 
 .footer-bottom p {
   margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-top
+  {
+    flex-wrap: wrap;
+  }
+
+  .widget
+  {
+    width: 40% !important;
+    margin: 0 10px !important;
+  }
+
+  .footer-bottom p
+  {
+    font-size: 15px;
+  }
 }
 
 /* Newsletter section ends here */
