@@ -3,7 +3,6 @@
 }
 
 * {
-  /* color: white; */
   text-transform: capitalize;
 }
 
@@ -11,10 +10,6 @@ body {
   background-color: skyblue;
   text-align: -webkit-center;
 }
-
-/* #counter-section {
-
-} */
 
 .counter-content {
   border: 2px solid var(--primary-color);
