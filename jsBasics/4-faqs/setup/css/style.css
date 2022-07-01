@@ -1,0 +1,50 @@
+body
+{
+    background-color: grey;
+}
+
+article
+{
+    box-shadow: 4px 40px 66px -21px rgba(255,0,0,0.21);
+-webkit-box-shadow: 4px 40px 66px -21px rgba(255,0,0,0.21);
+-moz-box-shadow: 4px 40px 66px -21px rgba(255,0,0,0.21);
+}
+
+
+.divider
+{
+    background-color: lightgray;
+    height: 1.5px;
+}
+
+.faq-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-header i
+{
+    color: rgb(255, 90, 90);
+    border: 2px solid rgb(255, 90, 90);
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+
+}
+
+.faq-btn
+{
+    cursor: pointer;
+}
+
+.hide-it
+{
+    display: none !important;
+}
+
+.show-it
+{
+    display: block !important;
+}
