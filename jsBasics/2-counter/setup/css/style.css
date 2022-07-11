@@ -23,7 +23,7 @@ body {
   font-weight: bold;
 }
 
-.button {
+/* .button {
   border: none;
   border-radius: 10px;
   background-color: var(--primary-color);
@@ -35,4 +35,26 @@ body {
 .button:hover {
   color: var(--primary-color) !important;
   background-color: white;
+} */
+
+
+button
+{
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 90, 90);
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: all 0.5s;
 }
+
+button:hover
+{
+  background-color: white;
+  color: rgb(255, 90, 90);
+}
+
+
+
+

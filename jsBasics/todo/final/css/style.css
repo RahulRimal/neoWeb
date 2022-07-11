@@ -1,0 +1,18 @@
+*
+{
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+.show-it
+{
+  display: block !important;
+}
+
+.hide-it
+{
+  display: none !important;
+}

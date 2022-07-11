@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/26d4a64054.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="todos">
+      <div class="container text-center my-5 py-5">
+        <div class="todo-header">
+          <h1>Todos List</h1>
+        </div>
+        <div class="todo-body">
+          <div class="todo-info mt-5 show-it">
+            <h5>What are we gonna do today?</h5>
+          </div>
+          <ul id="todo-list" class="text-left">
+          </ul>
+          <div class="input-group my-5">
+            <input
+              type="text"
+              class="form-control todo-field"
+              placeholder="Eg. Plant a tree"
+              aria-describedby="basic-addon2"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-primary add-todo" type="button">
+                Add todo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
